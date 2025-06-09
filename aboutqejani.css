@@ -7,7 +7,7 @@
 /* Body styling */
 body {
     background-color:whitesmoke;
-    color: rgb(160, 132, 152);
+    color: rgb(206, 202, 205);
     font-family: 'Roborto', sans-serif;
     display: flex; 
     flex-direction: column;
@@ -27,19 +27,12 @@ main {
 }
 
 /* About Qejani Section */
-.About-Qejani {
+.about-content {
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(221, 118, 207);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.527);
-}
-
-/* Qejani History */
-.Qejani-history {
-    font-weight: bold;
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.671);
 }
 
 /* Qejani Topic */
@@ -52,7 +45,7 @@ main {
 /* Qejani Story */
 .qejani-story {
     background-color: rgb(51, 45, 49); 
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: justify;
     max-width: 800px;
     line-height: 1.7;

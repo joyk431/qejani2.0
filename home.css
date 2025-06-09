@@ -5,7 +5,7 @@
 
 .description {
   font-family: Arial, sans-serif;
-  background-color: #eeddbd;
+  background-color: #e4abfa;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +37,7 @@ h1 {
 
 .room {
   background-color: #ffffff;
-  border: 2px solid #ddd;
+  border: 2px solid #d7a4db;
   border-radius: 8px;
   padding: 20px;
   width: 200px;
@@ -237,7 +237,7 @@ nav li:hover {
 }
 
 nav .buttons button {
-  background-color: #4CAF50;
+  background-color: #c3c4;
   border: none;
   padding: 0.5rem 1rem;
   color: white;
@@ -353,6 +353,8 @@ nav .buttons button:hover {
 }
 
 
+
+
 .head-texte h3 {
   font-size: 4%;
 
@@ -398,99 +400,14 @@ nav .buttons button:hover {
   margin-bottom: 1rem;
 }
 
-.gallery {
-  text-align: center;
-}
-
-.gallery-head h2 {
-  font-family: 'Bebas Neue', cursive;
-  margin-bottom: 2rem;
-}
-
-.gallery-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.gallery-item {
-  width: 23%;
-  margin-bottom: 1rem;
-}
-
-.gallery-item img {
-  width: 100%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.contact {
-  padding: 2rem;
-  background-color: black;
-  color: aliceblue;
-  text-align: center;
-  display: flex;
- justify-content: space-evenly;
- gap: 100px;
- text-align: center;
-}
 
 
 
-
-
-
-
-
-
-
-.contact h2 {
-  font-family: 'Bebas Neue', cursive;
-  margin-bottom: 2rem;
-}
-
-.contact-form {
-  max-width: 600px;
-  margin: auto;
-}
-
-.contact-form form {
-  display: flex;
-  flex-direction: column;
-}
-
-.contact-form .form-group {
-  margin-bottom: 1rem;
-}
-
-.contact-form label {
-  margin-bottom: 0.5rem;
-  text-align: left;
-}
-
-.contact-form input,
-.contact-form textarea {
-  padding: 0.5rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.contact-form button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 0.75rem;
-  border: none;
-  cursor: pointer;
-}
-
-.contact-form button:hover {
-  background-color: #45a049;
-}
-
-footer {
+.footer {
   text-align: center;
   padding: 1rem;
-  background-color: #4CAF50;
-  color: white;
+  background-color: #efb8f7;
+  color: rgb(14, 13, 13);
 }
 .sec{
   padding-top: 200px;
@@ -578,7 +495,7 @@ footer {
     width: 350%;
 
   }
-  .head-texte{
+  .head-text{
     color: black;
     font-size: small;
   }

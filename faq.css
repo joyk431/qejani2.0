@@ -1,0 +1,64 @@
+/* General page styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* FAQ container */
+.faq-container {
+  max-width: 900px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: #311331;
+  margin-bottom: 30px;
+}
+
+/* FAQ item wrapper */
+.faq-item {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* FAQ question button */
+.faq-question {
+  background-color: #311331;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  transition: background 0.3s ease;
+  border-radius: 5px 5px 0 0;
+}
+
+/* On hover */
+.faq-question:hover {
+  background-color: #4b1d4b;
+}
+
+/* FAQ answer box */
+.faq-answer {
+  padding: 15px;
+  display: none;
+  background-color: #f9f9f9;
+  color: #333333;
+  border-radius: 0 0 5px 5px;
+}
+
+/* Make it visible when active */
+.faq-question.active + .faq-answer {
+  display: block;
+}

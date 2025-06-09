@@ -66,8 +66,8 @@
     <!-- WELCOME SECTION -->
     <section id="middle" class="middle">
       <div id="text" class="text">
-        <h2>WELCOME TO <span style="color: greenyellow"> QEJANI HOSTEL</span></h2>
-        <p>Where Students<br> <span style="color: greenyellow">Feel</span> at Home.</p>
+        <h2>WELCOME TO <span style="color:  mediumpurple"> QEJANI HOSTEL</span></h2>
+        <p>We Bring Students<br> <span style="color: mediumpurple">Lifestyle</span> To Reality</p>
         <button onclick='rooms()' type="button" class="btn btn-outline-success text-white">
           <span id="Riverside-about" class="ROOM-NAV">View Rooms</span>
         </button>
@@ -75,3 +75,7 @@
     </section>
   </div>
 
+    <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2024 Riverside Hostel. All Rights Reserved.</p>
+  </footer>
